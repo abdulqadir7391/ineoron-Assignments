@@ -1,0 +1,147 @@
+1. Write a program to print MySirG 5 times on the screen
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+for(num=1;num<=5;num++)
+    printf("MySirG\n");
+return 0;
+}
+
+2. Write a program to print the first 10 natural numbers.
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Natural Number is ");
+for(num=1;num<=10;num++)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+3. Write a program to print the first 10 natural numbers in reverse order
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Natural Number in Reverse Order is ");
+for(num=10;num>=1;num--)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+4. Write a program to print the first 10 odd natural numbers
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Odd Natural Number is ");
+for(num=1;num<=2*10-1;num=num+2)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+5. Write a program to print the first 10 odd natural numbers in reverse order.
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Odd Natural Number is ");
+for(num=2*10-1;num>=1;num=num-2)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+6. Write a program to print the first 10 even natural numbers
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Odd Natural Number is ");
+for(num=2;num<=2*10;num=num+2)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+7. Write a program to print the first 10 even natural numbers in reverse order
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("First 10 Even Natural Number is ");
+for(num=2*10;num>=2;num=num-2)
+    printf("%d ",num);
+printf("\n");
+return 0;
+}
+
+8. Write a program to print squares of the first 10 natural numbers
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("Squares of First 10 Natural Number is ");
+for(num=1;num<=10;num++)
+    printf("%d ",num*num);
+printf("\n");
+return 0;
+}
+
+9. Write a program to print cubes of the first 10 natural numbers
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("Cubes of First 10 Natural Number is ");
+for(num=1;num<=10;num++)
+    printf("%d ",num*num*num);
+printf("\n");
+return 0;
+}
+
+10. Write a program to print a table of 5.
+
+Solution:-
+
+#include<stdio.h>
+int main()
+{
+int num;
+printf("Table of 5 is ");
+for(num=1;num<=10;num++)
+    printf("%d ",num*5);
+printf("\n");
+return 0;
+}
