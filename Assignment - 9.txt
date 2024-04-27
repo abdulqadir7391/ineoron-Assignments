@@ -399,5 +399,54 @@ return 0;
 
 10. C program to find all roots of a quadratic equation using switch case.
 
-Solution:- Not Clicked :-(
+Solution:- 
 
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a=0, b=0, c=0, d=0, output = 0,num = 0;
+    cout<<"Enter Value of A = ";
+    cin>>a;
+    cout<<"Enter Value of B = ";
+    cin>>b;
+    cout<<"Enter Value of C = ";
+    cin>>c;
+    d = (b*b)-4*a*c;
+    d = sqrt(d);
+    cout<<"Press the key:\nClick 1. Sum of Root\nClick 2. Product of Root\nClick 3. Root of Quadratic Equation\n";
+    cin>>num;
+
+    switch(num)
+    {
+    case 1:
+        {
+           output = -b / a;
+           cout<<"Sum of Root = "<<output;
+           break;
+        }
+    case 2:
+        {
+            output = c / a;
+            cout<<"Product of Root = "<<output;
+            break;
+        }
+    case 3:
+        {
+         if(d>0)
+         {
+             output = (-b + d)/2*a;
+             cout<<"Root of Quadratic Equation = "<<output;
+             output = (-b - d)/2*a;
+             cout<<", "<<output;
+             break;
+         }
+    default:
+        cout<<"You are Entered Wrong Input.";
+        }
+    }
+    return 0;
+}
+
+//Author: Abdul Qadir
