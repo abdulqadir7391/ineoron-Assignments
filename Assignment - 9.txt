@@ -1,5 +1,4 @@
-1. Write a program which takes the month number as an input and display
-number of days in that month.
+1. Write a program which takes the month number as an input and display number of days in that month.
 
 Solution:-
 
